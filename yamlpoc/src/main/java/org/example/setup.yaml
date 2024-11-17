@@ -1,0 +1,21 @@
+---
+Steps:
+  Initiate Authentication HTTP request:
+    type: HTTP Request
+
+  Validate Code HTTP request:
+    type: HTTP Request
+
+  Verify validateCode status code:
+    type: HTTP Request
+
+  Verify validateCode response:
+    type: validation
+
+  Sleep:
+    type: sleep
+    value: 10
+
+  check:
+
+
